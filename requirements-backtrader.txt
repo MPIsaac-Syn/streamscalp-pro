@@ -1,0 +1,5 @@
+# Backtrader dependencies
+backtrader==1.9.78.123
+matplotlib>=3.5.0,<3.7.0  # For plotting backtest results (3.7+ may have compatibility issues)
+pandas>=2.1.1             # Already in requirements-base.txt, but listed here for clarity
+pyqt5                     # Optional: Alternative backend for matplotlib

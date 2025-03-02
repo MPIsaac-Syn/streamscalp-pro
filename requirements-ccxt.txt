@@ -1,0 +1,2 @@
+# CCXT and its dependencies
+ccxt==4.1.52

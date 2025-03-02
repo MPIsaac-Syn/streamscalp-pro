@@ -1,0 +1,28 @@
+# StreamScalp Pro Requirements
+# This file includes references to separate requirement files to manage dependencies
+
+# Core dependencies
+-r requirements-base.txt
+
+# Exchange API clients
+# Note: Install these separately to avoid dependency conflicts
+# -r requirements-alpaca.txt  # Uncomment to install Alpaca API (may cause conflicts)
+# -r requirements-ccxt.txt    # Uncomment to install CCXT (may cause conflicts)
+# -r requirements-backtrader.txt  # Uncomment to install Backtrader for backtesting
+
+# Development dependencies
+# -r requirements-dev.txt     # Uncomment for development environment setup
+
+# Installation instructions:
+# 1. First install base dependencies:
+#    pip install -r requirements-base.txt
+#
+# 2. Then install exchange clients in separate environments or with --no-deps:
+#    pip install -r requirements-alpaca.txt --no-deps
+#    pip install -r requirements-ccxt.txt
+#
+# 2a. For backtesting capabilities:
+#    pip install -r requirements-backtrader.txt
+#
+# 3. For development, install dev dependencies:
+#    pip install -r requirements-dev.txt

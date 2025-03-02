@@ -1,0 +1,28 @@
+# Core dependencies
+ccxt==4.1.52
+fastapi==0.103.1
+uvicorn==0.23.2
+python-dotenv==1.0.0
+sqlalchemy==2.0.23
+redis==4.6.0
+# pandas==2.1.1  # Commented out due to compatibility issues with Python 3.13
+alembic==1.12.0
+pydantic-settings>=2.0.3
+psycopg2-binary>=2.9.6
+
+# API clients
+alpaca-trade-api==3.0.2
+
+# Monitoring and observability
+prometheus-client==0.17.1
+psutil==5.9.5
+
+# Testing
+pytest==7.4.2
+pytest-asyncio==0.21.1
+httpx==0.25.0  # For testing FastAPI endpoints
+
+# Development
+black==23.9.1
+isort==5.12.0
+flake8==6.1.0

@@ -1,0 +1,32 @@
+# Create a lightweight virtual environment
+python -m venv .venv
+source .venv/bin/activate  # Linux/macOS
+.venv\Scripts\activate     # Windows
+
+# Install dependencies via pip
+pip install ccxt fastapi uvicorn sqlalchemy python-dotenv redis
+
+pip install -r requirements.txt
+
+docker compose version 
+docker compose config    
+docker compose start
+docker compose stop
+docker compose restart
+docker compose run    
+docker compose create  
+docker compose attach      
+docker compose pause
+docker compose unpause
+docker compose wait   
+docker compose up
+docker compose down
+docker compose ps
+docker compose top 
+docker compose events   
+docker compose logs
+docker compose images
+docker compose build      
+docker compose push  
+docker compose cp       
+docker compose exec 
