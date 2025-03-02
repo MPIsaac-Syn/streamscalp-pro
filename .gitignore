@@ -47,6 +47,7 @@ logs/
 # Project specific
 historical_data.csv
 backtest_results/
+streamscalp-pro-digest.txt
 trades.db
 
 # Docker
